@@ -2,20 +2,20 @@
   "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://github.com/reymisterii/goit-js-hw-08",
+  "homepage": "https://reymisterii.github.io/goit-js-hw-08",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/reymisterii/goit-js-hw-08"
+    "url": "git+https://github.com/reymisterii/goit-js-hw-08.git"
   },
   "keywords": [],
-  "author": "Motcun Andrii <reymisterii@gmail.com>",
+  "author": "Motcun Andrii  <reymisterii@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/reymisterii/goit-js-hw-08"
+    "url": "https://github.com/reymisterii/goit-js-hw-08/issues"
   },
   "dependencies": {
     "modern-normalize": "^1.1.0",
