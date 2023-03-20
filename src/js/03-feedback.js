@@ -18,7 +18,8 @@ function onFormSubmit(e) {
    if (email.value === `` || message.value === ``) {
       alert(`Заповніть всі поля!`);
    } else {
-      console.log('Отправляєм форму');
+      console.log(localStorage.getItem(STORAGE_KEY));
+      console.log(JSON.parse(localStorage.getItem(STORAGE_KEY)));
    e.target.reset();
    localStorage.removeItem(STORAGE_KEY);
    }
@@ -36,7 +37,6 @@ function onTextareaInput() {
 
 // вивод данних з локалстор і заповнення цими данними полей форм
 function populateTextarea() {
-
    if (localStorage.getItem(STORAGE_KEY)) {
       const savedObj = JSON.parse(localStorage.getItem(STORAGE_KEY));
     email.value = savedObj.email;
